@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Asp.API",
+    "\\Asp.API\\Extensions",
+    "\\Asp.Application",
+    "\\Asp.Application\\UseCases",
+    "\\Asp.Application\\UseCases\\DTO",
+    "\\Asp.Application\\UseCases\\Queries"
+  ],
+  "SelectedNode": "\\Asp.API\\appsettings.Development.json",
+  "PreviewInSolutionExplorer": false
+}

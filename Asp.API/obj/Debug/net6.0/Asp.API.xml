@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Asp.API</name>
+    </assembly>
+    <members>
+        <member name="M:Asp.API.Controllers.CategoriesController.Post(Asp.Application.UseCases.DTO.CreateCategoryDto,Asp.Application.UseCases.Commands.ICreateCategoryCommand)">
+             <summary>
+             Create new category.
+             </summary>
+             <param name="dto"></param>
+             <param name="command"></param>
+             <returns></returns>
+             <remarks>
+             Sample request:
+            
+                 POST /api/Categories
+                 {
+                    "CategoryName": "New Category",
+                 }
+            
+             </remarks>
+             <response code="201">Successfull creation.</response>
+             <response code="422">Validation failure.</response>
+             <response code="500">Unexpected server error.</response>
+        </member>
+        <member name="M:Asp.API.Controllers.RegisterController.Post(Asp.Application.UseCases.DTO.RegisterDto,Asp.Application.UseCases.Commands.IRegisterUserCommand)">
+             <summary>
+             Create new user.
+             </summary>
+             <param name="dto"></param>
+             <param name="command"></param>
+             <returns></returns>
+             <remarks>
+             Sample request:
+            
+                 POST /api/Register
+                 {
+                    "FirstName": "John",
+                    "LastName": "Doe",
+                    "Email" : "johndoe@domain.com",
+                    "Password" : "JohnDoe123"
+                 }
+            
+             </remarks>
+             <response code="201">Successfull creation.</response>
+             <response code="422">Validation failure.</response>
+             <response code="500">Unexpected server error.</response>
+        </member>
+    </members>
+</doc>
